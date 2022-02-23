@@ -1,7 +1,5 @@
 #include "stdio.h"
 
-#ifdef Variability1
-
 int main(){
     int var1 = 55;
     printf("Var1 value is %d\n", var1);
@@ -10,8 +8,6 @@ int main(){
         printf("Powers of 2 are interesting numbers, like %d\n", var1);
     }
 }
-
-#endif
 
 
 #ifdef Variability2
